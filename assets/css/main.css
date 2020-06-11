@@ -3266,3 +3266,14 @@
 				}
 
 		}
+		
+		#curso-pregrabado {
+			margin-top: -150px;
+			display: flex;
+			justify-content: center;
+		  }
+		  
+		#curso-pregrabado > iframe {
+			max-width: 800px;
+			width: 100%;
+		  }
