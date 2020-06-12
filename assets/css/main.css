@@ -3282,12 +3282,12 @@
 			margin: 50px 0;
 			text-align: center;
 		  }
-		  ul{
+		  #taller{
 			max-width: 600px;
 			margin: 0 auto 50px auto;
 			text-align: left;
-			line-heigth:1.6;
+			line-height:1.6;
 		  }
-		  li{
+		  #descrip{
 			margin:16px 0;
 		  }
