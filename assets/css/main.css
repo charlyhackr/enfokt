@@ -3110,7 +3110,7 @@
 		}
 
 		#banner p {
-			color: #aaa;
+			color: #eee;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 			text-transform: uppercase;
@@ -3272,15 +3272,26 @@
 		  #headline{
 			margin: 50px 0;
 			text-align: center;
+			font-size: 45px;
+			color: crimson;
+			text-decoration: underline overline red ;
 		  }
 		  #taller{
 			max-width: 600px;
 			margin: 0 auto 50px auto;
 			text-align: left;
 			line-height:1.6;
+			
 		  }
 		  #descrip{
 			margin:16px 0;
+			text-size: 100em;
+			font-size: 25px;
+			color: black;
+		  }
+
+		  #parra{
+			  font-size:30px;
 		  }
 
 		  
