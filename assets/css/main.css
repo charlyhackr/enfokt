@@ -3267,16 +3267,7 @@
 
 		}
 		
-		#curso-pregrabado {
-			margin-top: 0px;
-			display: flex;
-			justify-content: center;
-		  }
-		  
-		#curso-pregrabado > iframe {
-			max-width: 1000px;
-			width: 100%;
-		  }
+		
 		  
 		  #headline{
 			margin: 50px 0;
@@ -3291,3 +3282,125 @@
 		  #descrip{
 			margin:16px 0;
 		  }
+
+		  
+
+		
+		   .delimitador{
+			width:1000px;    
+			margin:auto;    
+			}
+
+			.responsive{
+				height:0px;
+				width: 100%;
+				max-width:1000px; 
+				padding-top:56.25%; 
+				position:relative;
+			}
+			
+			.responsive iframe{
+				position:absolute;
+				height:100%;
+				width:100%;
+				top:0px;
+				left:0px;
+			}
+
+			@media screen and (max-width:639px) {
+				.delimitador{
+					width:300px;    
+					margin:auto;    
+					}
+		
+					.responsive{
+						height:0px;
+						width: 100%;
+						max-width:300px; 
+						padding-top:56.25%; S
+						position:relative;
+					}
+					
+					.responsive iframe{
+						position:absolute;
+						height:100%;
+						width:100%;
+						top:0px;
+						left:0px;
+					}
+			}
+			
+			@media screen and (max-width:1024px) and (min-width:640px) {
+				.delimitador{
+					width:600px;    
+					margin:auto;    
+					}
+		
+					.responsive{
+						height:0px;
+						width: 100%;
+						max-width:600px; 
+						padding-top:56.25%; 
+						position:relative;
+					}
+					
+					.responsive iframe{
+						position:absolute;
+						height:100%;
+						width:100%;
+						top:0px;
+						left:0px;
+					}
+			}
+			
+
+				.lim{
+				width:500px;    
+				margin:auto;    
+				height:500px;
+				}
+	
+				.contenwdor{
+					height:500px;
+					width: 100%;
+					max-width:500px; 
+					padding-top:56.25%; 
+					position:relative;
+				}
+				
+				.contenedor iframe{
+					position:relative;
+					height: 500px;;
+					width:100%;
+					top:0px;
+					left:0px;
+				}
+
+				@media screen and (max-width:640px) {
+					.lim{
+						width:300px;    
+						margin:auto;    
+						height:300px;
+						}
+			
+						.contenwdor{
+							height:300px;
+							width: 100%;
+							max-width:300px; 
+							padding-top:56.25%; 
+							position:relative;
+						}
+						
+						.contenedor iframe{
+							position:relative;
+							height: 300px;;
+							width:100%;
+							top:0px;
+							left:0px;
+						}
+				}
+				
+				
+			
+				
+		 
