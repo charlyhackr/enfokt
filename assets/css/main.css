@@ -3380,7 +3380,7 @@
 					.lim{
 						width:150px;    
 						margin:auto;    
-						height:300px;
+						height:150px;
 						}
 			
 						.contenwdor{
@@ -3399,7 +3399,29 @@
 							left:0px;
 						}
 				}
-				
+				@media screen and (max-width:1024px) and (min-width:640px) {
+					.lim{
+						width:250px;    
+						margin:auto;    
+						height:250px;
+						}
+			
+						.contenwdor{
+							height:250px;
+							width: 100%;
+							max-width:250px; 
+							padding-top:56.25%; 
+							position:relative;
+						}
+						
+						.contenedor iframe{
+							position:relative;
+							height: 250px;;
+							width:100%;
+							top:0px;
+							left:0px;
+						}
+				}
 				
 			
 				
