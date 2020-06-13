@@ -3430,7 +3430,33 @@
 							left:0px;
 						}
 				}
-				
+
+				/*   CONTADOR     */
+				#clock{
+					display: flex;
+					justify-content: center;
+					margin-bottom: 50px;
+					margin-top: -50px;
+				}
+				.simply-section{
+					background: #F0ABB9;
+					width: 180px;
+					height: 180px;
+					margin: 0 20px;
+					border-radius: 5px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+				.simply-amount{
+					display: block;
+					font-size: 42px;
+					font-weight: 700;
+				}
+				.simply-word{
+					font-weight: 300;
+					font-size: 30px;
+				}
 			
 				
 		 
