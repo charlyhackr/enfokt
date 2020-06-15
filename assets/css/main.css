@@ -1881,7 +1881,17 @@
 		button.big,
 		.button.big {
 			font-size: 1.35em;
+			height: fit-content;
 		}
+
+		input[type="submit"].bigger,
+			input[type="reset"].bigger,
+			input[type="button"].bigger,
+			button.bigger,
+			.button.bigger {
+				font-size: 1.35em;
+				height: fit-content;
+			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
@@ -1970,9 +1980,25 @@
 			button,
 			.button {
 				padding: 0;
+				font-weight: 700;
+				height: 3.15em;
 			}
 
 		}
+
+		@media screen and (max-width:639px) {
+			input[type="submit"],
+			input[type="reset"],
+			input[type="button"],
+			button,
+			.button.bigger {
+				padding: 0;
+				font-size: 15px;
+			}
+
+
+		}
+
 
 /* Feature */
 
@@ -2439,6 +2465,22 @@
 			list-style: none;
 			padding-left: 0;
 		}
+		ul.actions2 {
+			cursor: default;
+			list-style: none;
+			padding-left: 350px;
+		}
+		@media screen and (max-width:639px) {
+			ul.actions2{
+				padding-left: 0px;
+			}
+		}
+		@media screen and (max-width:1024px) and (min-width:640px) {
+			ul.actions2{
+				padding-left: 100px;
+			}
+		}
+
 
 			ul.actions li {
 				display: inline-block;
@@ -3288,12 +3330,57 @@
 			font-size: 25px;
 			color: black;
 		  }
-
 		  
+		  @media screen and (max-width:639px) {
+			#headline{
+				margin: 50px 0;
+				text-align: center;
+				font-size: 20px;
+				color: crimson;
+				text-decoration: underline overline red ;
+			  }
+			  #taller{
+				max-width: 600px;
+				margin: 0 auto 50px auto;
+				text-align: left;
+				line-height:1.6;
+				
+			  }
+			  #descrip{
+				margin:16px 0;
+				font-size: 12px;
+				color: black;
+			  }
 
-		  
+		  }
+		  @media screen and (max-width:1024px) and (min-width:640px) {
+			#headline{
+				margin: 50px 0;
+				text-align: center;
+				font-size: 30px;
+				color: crimson;
+				text-decoration: underline overline red ;
+			  }
+			  #taller{
+				max-width: 600px;
+				margin: 0 auto 50px auto;
+				text-align: left;
+				line-height:1.6;
+				
+			  }
+			  #descrip{
+				margin:16px 0;
+				font-size: 19px;
+				color: black;
+			  }
 
-		
+		  }
+
+
+
+
+
+
 		   .delimitador{
 			width:1000px;    
 			margin:auto;    
@@ -3517,6 +3604,9 @@
 
 
 				}
+				
+
+
 
 			
 				
