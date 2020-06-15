@@ -1889,7 +1889,7 @@
 			button.bigger,
 			.button.bigger {
 				font-size: 1.35em;
-				height: fit-content;
+				height: 6em;				
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
