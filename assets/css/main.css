@@ -1881,7 +1881,6 @@
 		button.big,
 		.button.big {
 			font-size: 1.35em;
-			height: fit-content;
 		}
 
 		input[type="submit"].bigger,
