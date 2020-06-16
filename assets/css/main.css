@@ -3634,6 +3634,20 @@
 
 				  }
 
+				  @media screen and (max-width:1024px) and (min-width:640px) {
+					#etiqueta{
+						-moz-transform: rotate(50deg);
+						-o-transform: rotate(50deg);
+						 -webkit-transform: rotate(50deg);
+						transform: rotate(50deg);
+						 transform: rotate(50deg);
+						  width: 30px;
+						  height: 15px;
+						  align-self: flex-end;
+					
+					}
+				  }
+
 				
 
 
