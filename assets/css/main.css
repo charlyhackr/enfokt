@@ -3614,8 +3614,7 @@
 				  #etiqueta{
 					-moz-transform: rotate(50deg);
 					-o-transform: rotate(50deg);
-					 -webkit-transform: rotate(50deg);
-				    transform: rotate(50deg);
+					-webkit-transform: rotate(50deg);
 					 transform: rotate(50deg);
 					  width: 380px;
 					  height: 150px;
@@ -3628,8 +3627,8 @@
 						 -webkit-transform: rotate(50deg);
 						transform: rotate(50deg);
 						 transform: rotate(50deg);
-						  width: 100px;
-						  height: 50px;
+						  width: 70px;
+						  height: 27px;
 						  align-self: flex-end;
 					  }
 
