@@ -3627,8 +3627,8 @@
 						 -webkit-transform: rotate(50deg);
 						transform: rotate(50deg);
 						 transform: rotate(50deg);
-						  width: 100px;
-						  height: 50px;
+						  width: 70px;
+						  height: 35px;
 						  align-self: flex-end;
 					  }
 
@@ -3641,8 +3641,8 @@
 						 -webkit-transform: rotate(50deg);
 						transform: rotate(50deg);
 						 transform: rotate(50deg);
-						  width: 200px;
-						  height: 90px;
+						  width: 100px;
+						  height: 50px;
 						  align-self: flex-end;
 					
 					}
