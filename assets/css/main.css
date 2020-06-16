@@ -3602,6 +3602,39 @@
 
 
 				}
+
+				.linea {
+					background-color:  #f32853;
+					height: 8px;
+					padding: 0px;
+					margin: 0 auto 0 auto;
+				  }
+
+
+				  #etiqueta{
+					-moz-transform: rotate(50deg);
+					-o-transform: rotate(50deg);
+					 -webkit-transform: rotate(50deg);
+				    transform: rotate(50deg);
+					 transform: rotate(50deg);
+					  width: 380px;
+					  heigt: 380px;
+					  align-self: flex-end;
+				  }
+				  @media screen and (max-width:639px) {
+					#etiqueta{
+						-moz-transform: rotate(50deg);
+						-o-transform: rotate(50deg);
+						 -webkit-transform: rotate(50deg);
+						transform: rotate(50deg);
+						 transform: rotate(50deg);
+						  width: 100px;
+						  heigt: 100px;
+						  align-self: flex-end;
+					  }
+
+				  }
+
 				
 
 
