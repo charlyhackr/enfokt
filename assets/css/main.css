@@ -3225,6 +3225,7 @@
 		background: #f6f6f6;
 		color: #aaa;
 		text-align: center;
+		margin-top: -150px;
 	}
 
 		#footer a {
@@ -3398,6 +3399,7 @@
 				width:100%;
 				top:0px;
 				left:0px;
+				
 			}
 
 			@media screen and (max-width:639px) {
@@ -3619,6 +3621,7 @@
 					  width: 380px;
 					  height: 150px;
 					  align-self: flex-end;
+
 				  }
 				  @media screen and (max-width:639px) {
 					#etiqueta{
@@ -3653,6 +3656,10 @@
 
 				  #fix{
 					  margin-top: -30px;
+				  }
+				  #fixed{
+					margin-top: -70px;
+					
 				  }
 
 				  
