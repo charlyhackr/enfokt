@@ -3393,7 +3393,7 @@
 				position:relative;
 			}
 			
-			.responsive iframe{
+			.responsive video{
 				position:absolute;
 				height:100%;
 				width:100%;
@@ -3416,7 +3416,7 @@
 						position:relative;
 					}
 					
-					.responsive iframe{
+					.responsive video{
 						position:absolute;
 						height:100%;
 						width:100%;
@@ -3439,7 +3439,7 @@
 						position:relative;
 					}
 					
-					.responsive iframe{
+					.responsive video{
 						position:absolute;
 						height:100%;
 						width:100%;
@@ -3463,7 +3463,7 @@
 					position:relative;
 				}
 				
-				.contenedor iframe{
+				.contenedor video{
 					position:relative;
 					height: 500px;;
 					width:100%;
@@ -3486,7 +3486,7 @@
 							position:relative;
 						}
 						
-						.contenedor iframe{
+						.contenedor video{
 							position:relative;
 							height: 150px;;
 							width:100%;
@@ -3509,7 +3509,7 @@
 							position:relative;
 						}
 						
-						.contenedor iframe{
+						.contenedor video{
 							position:relative;
 							height: 250px;;
 							width:100%;
