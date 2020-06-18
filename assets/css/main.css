@@ -3448,7 +3448,7 @@
 					}
 			}
 
-			/*VIDEO PEQUEñO*/
+			/*VIDEO PEQUEñO IZQUIERDA*/
 			.delimitador2{
 				width:200px;    
 				margin:auto;    
@@ -3472,6 +3472,31 @@
 					left:0px;
 					
 				}
+
+				/*Video Pequeno derecha*/
+				.delimitador3{
+					width:200px;    
+					margin:auto;    
+					margin-top: 210PX;
+					margin-left: 120PX;
+					}
+		
+					.responsive3{
+						height:0px;
+						width: 100%;
+						max-width:200px; 
+						padding-top:100%; 
+						position:relative;
+					}
+					
+					.responsive3 video{
+						position:absolute;
+						height:100%;
+						width:100%;
+						top:0px;
+						left:0px;
+						
+					}	
 
 			
 
