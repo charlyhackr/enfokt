@@ -3680,7 +3680,7 @@
 					-o-transform: rotate(50deg);
 					-webkit-transform: rotate(50deg);
 					 transform: rotate(50deg);
-					  width: 380px;
+					  width: 365px;
 					  height: 150px;
 					  align-self: flex-end;
 
@@ -3699,7 +3699,7 @@
 
 				  }
 
-				  @media screen and (max-width:1024px) and (min-width:640px) {
+				  @media screen (min-width:640px) {
 					#etiqueta{
 						-moz-transform: rotate(60deg);
 						-o-transform: rotate(60deg);
@@ -3755,6 +3755,14 @@
 						color: rgb(248, 23, 23);
 						font-size: 18px;
 					}
+					.prueba{
+						background-color: #f32853;
+						font-weight: 800;
+					}
+					.prueba:hover{
+						background-color: #f44066
+					}
+					
 
 				  
 
