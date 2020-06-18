@@ -3705,13 +3705,38 @@
 					  background-color: #e7c7cd;
 				  }
 
+
+
+
 				  #fix{
 					  margin-top: -30px;
 				  }
+				  @media screen and (max-width:639px) {
+					#fix{
+						margin-top: 0px;
+					}
+					@media screen and (max-width:1024px) and (min-width:640px) {
+						#fix{
+							margin-top: 0px;
+						}
+					}
+
+
+				  }
+
 				  #fixed{
 					margin-top: -70px;
-					
 				  }
+
+				  @media screen and (max-width:639px) {
+					#fixed{
+						margin-top: 0px;
+					}
+					@media screen and (max-width:1024px) and (min-width:640px) {
+						#fixed{
+							margin-top: 0px;
+						}
+					}
 
 				  
 
