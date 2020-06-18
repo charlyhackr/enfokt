@@ -3379,7 +3379,7 @@
 
 
 
-
+        /* VIDEO GRANDE */
 		   .delimitador{
 			width:1000px;    
 			margin:auto;    
@@ -3447,6 +3447,32 @@
 						left:0px;
 					}
 			}
+
+			/*VIDEO PEQUEñO*/
+			.delimitador2{
+				width:200px;    
+				margin:auto;    
+				margin-top: 180PX;
+				margin-right: 100PX;
+				}
+	
+				.responsive2{
+					height:0px;
+					width: 100%;
+					max-width:200px; 
+					padding-top:100%; 
+					position:relative;
+				}
+				
+				.responsive2 video{
+					position:absolute;
+					height:100%;
+					width:100%;
+					top:0px;
+					left:0px;
+					
+				}
+
 			
 
 				.lim{
