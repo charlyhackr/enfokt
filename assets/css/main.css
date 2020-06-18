@@ -3498,6 +3498,42 @@
 						left:0px;
 						
 					}	
+					/*Video Introduccion*/
+
+					.delimitador4{
+						width:350px;  
+						height: 300px;  
+						margin:auto;    
+						margin-top: -50PX;
+						margin-left: 25PX;
+						}
+			
+						.responsive4{
+							height:300px;
+							width: 100%;
+							max-width:500px; 
+							padding-top:100%; 
+							position:relative;
+						}
+						
+						.responsive4 video{
+							position:absolute;
+							height:100%;
+							width:100%;
+							top:0px;
+							left:0px;
+							
+						}	
+
+						@media screen and (max-width:639px) {
+							.delimitador4{
+								width:350px;  
+								height: 300px;  
+								margin:auto;    
+								margin-top: -50PX;
+								margin-left: 0PX;
+							}
+						}
 
 					.circle{
 						border-radius: 60px;
