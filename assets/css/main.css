@@ -3713,11 +3713,11 @@
 				  }
 				  @media screen and (max-width:639px) {
 					#fix{
-						margin-top: 0px;
+						margin-top: -100px;
 					}
 					@media screen and (max-width:1024px) and (min-width:640px) {
 						#fix{
-							margin-top: 0px;
+							margin-top: -100px;
 						}
 					}
 
