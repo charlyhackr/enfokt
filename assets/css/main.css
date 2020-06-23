@@ -3534,8 +3534,17 @@
 
 						@media screen and (max-width:639px) {
 							.delimitador4{
-								width:350px;  
-								height: 300px;  
+								width:200px;  
+								height: 150px;  
+								margin:auto;    
+								margin-top: -50PX;
+								margin-left: 0PX;
+							}
+						}
+						@media screen and (max-width:1024px) and (min-width:640px) {
+							.delimitador4{
+								width:250px;  
+								height: 200px;  
 								margin:auto;    
 								margin-top: -50PX;
 								margin-left: 0PX;
@@ -3728,16 +3737,16 @@
 					  align-self: flex-end;
 
 				  }
-				  @media screen and (max-width:639px) {
+				  @media screen and (max-width:640px) {
 					#etiqueta{
 						-moz-transform: rotate(70deg);
 						-o-transform: rotate(70deg);
-						 -webkit-transform: rotate(70deg);
+						-webkit-transform: rotate(70deg);
 						transform: rotate(70deg);
-						 transform: rotate(70deg);
-						  width:  83px;
-						  height: 35px;
-						  align-self: flex-end;
+						transform: rotate(70deg);
+						width:  83px;
+						height: 35px;
+						align-self: flex-end;
 					  }
 
 				  }
@@ -3746,12 +3755,12 @@
 					#etiqueta{
 						-moz-transform: rotate(60deg);
 						-o-transform: rotate(60deg);
-						 -webkit-transform: rotate(60deg);
+						-webkit-transform: rotate(60deg);
 						transform: rotate(60deg);
-						 transform: rotate(60deg);
-						  width: 120px;
-						  height: 70px;
-						  align-self: flex-end;
+						transform: rotate(60deg);
+						width: 120px;
+						height: 70px;
+						align-self: flex-end;
 					
 					}
 				  }

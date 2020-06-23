@@ -77,7 +77,7 @@
     simplyCountdown('#clock', {
         year: 2020, // required
         month: 6, // required
-        day: 20, // required
+        day: 26, // required
         hours: 19, // Default is 0 [0-23] integer
         minutes: 0, // Default is 0 [0-59] integer
         seconds: 0, // Default is 0 [0-59] integer
