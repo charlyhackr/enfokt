@@ -3512,7 +3512,7 @@
 						height: 300px;  
 						margin:auto;    
 						margin-top: -50PX;
-						margin-left: 25PX;
+						margin-left: 0PX;
 						}
 			
 						.responsive4{
@@ -3528,28 +3528,41 @@
 							height:100%;
 							width:100%;
 							top:0px;
-							left:0px;
+							left:-200px;
 							
 						}	
-
+						
 						@media screen and (max-width:639px) {
-							.delimitador4{
-								width:150px;  
-								height: 100px;  
-								margin:auto;    
-								margin-top: -50PX;
-								margin-left: 0PX;
-							}
+							.responsive4 video{
+								position:absolute;
+								height:100%;
+								width:80%;
+								top:0px;
+								left:0px;
+								
+							}	
 						}
 						@media screen and (max-width:1024px) and (min-width:640px) {
-							.delimitador4{
-								width:200px;  
-								height: 150px;  
-								margin:auto;    
-								margin-top: -50PX;
-								margin-left: 0PX;
+							.responsive4 video{
+								position:absolute;
+								height:100%;
+								width:100%;
+								top:0px;
+								left:0px;
+								
+							}	
+						}
+
+						.arreglo{
+							margin-top: 0px;
+						}
+
+						@media screen and (max-width:639px) {
+							.arreglo{
+								margin-top: -250px;
 							}
 						}
+
 
 					.circle{
 						border-radius: 60px;
