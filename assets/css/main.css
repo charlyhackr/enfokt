@@ -3553,15 +3553,7 @@
 							}	
 						}
 
-						.arreglo{
-							margin-top: 0px;
-						}
-
-						@media screen and (max-width:639px) {
-							.arreglo{
-								margin-top: -250px;
-							}
-						}
+						
 
 
 					.circle{
