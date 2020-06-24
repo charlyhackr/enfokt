@@ -3817,19 +3817,43 @@
 						color: rgb(248, 23, 23);
 						font-size: 18px;
 					}
-					.prueba{
-						background-color: #f32853;
-						font-weight: 800;
-					}
-					.prueba:hover{
-						background-color: #f44066
-					}
 					
-
+					
 					.link{
 						font-size: 14px;
 						color: rgb(38, 0, 255);
 					}
+					
+				
+						a.button5{
+							display:inline-block;
+							padding:1em 1.6em;
+							margin:0 0.2em 0.2em 0;
+							border-radius: 4px;
+							box-sizing: border-box;
+							text-decoration:none;
+							font-weight:800;
+							font-size: 23px;
+							color:#ffffff;
+							text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+							background-color:#f32853;
+							text-align:center;
+							transition: all 0.15s;
+							font-weight: 1000;
+						}
+							a.button5:hover{
+							text-shadow: 0 0 2em rgba(255,255,255,1);
+							color:#FFFFFF;
+							border-color:#FFFFFF;
+							}
+							@media all and (max-width:30em){
+							 a.button5{
+								display:block;
+								margin:0.4em auto;
+							 }
+							}
+
+					
 
 				  
 
