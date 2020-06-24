@@ -3400,7 +3400,7 @@
 				position:relative;
 			}
 			
-			.responsive video{
+			.responsive iframe{
 				position:absolute;
 				height:100%;
 				width:100%;
@@ -3423,7 +3423,7 @@
 						position:relative;
 					}
 					
-					.responsive video{
+					.responsive iframe{
 						position:absolute;
 						height:100%;
 						width:100%;
@@ -3446,7 +3446,7 @@
 						position:relative;
 					}
 					
-					.responsive video{
+					.responsive iframe{
 						position:absolute;
 						height:100%;
 						width:100%;
