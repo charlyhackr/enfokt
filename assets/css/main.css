@@ -3581,12 +3581,14 @@
 				@media screen and (max-width:639px) {
 					#centro{
 						margin-left: 0px;
+						margin-bottom: 50px;
 					}
 				}
 
 				@media screen and (max-width:1024px) and (min-width:640px) {
 					#centro{
 						margin-left: 0px;
+						margin-bottom: 50px;
 					}
 				}
 	
