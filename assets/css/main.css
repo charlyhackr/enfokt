@@ -3336,7 +3336,7 @@ body.is-touch #pagoFinal {
 
 	  }
 
-	  a.button6{
+	  button.button6{
 		display:inline-block;
 		padding:1em 1.6em;
 		margin:0 0.2em 0.2em 0;
@@ -3353,13 +3353,13 @@ body.is-touch #pagoFinal {
 		font-weight: 1000;
 		font-family: 'Bangers', cursive;
 	}
-		a.button6:hover{
+		button.button6:hover{
 		text-shadow: 0 0 2em rgba(255,255,255,1);
 		color:#FFFFFF;
 		border-color:#FFFFFF;
 		}
 		@media all and (max-width:30em){
-		 a.button6{
+		 button.button6{
 			display:block;
 			margin:0.4em auto;
 		 }
