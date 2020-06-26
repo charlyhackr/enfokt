@@ -3722,6 +3722,16 @@ body.is-touch #pagoFinal {
 					left:0px;
 					
 				}
+				@media screen and (max-width:639px) {
+					.responsive2 video{
+						position:absolute;
+						height:70%;
+						width:70%;
+						top:0px;
+						left:0px;
+						
+					}
+				}
 
 
 				/*Video Pequeno izquierda*/
@@ -3748,6 +3758,17 @@ body.is-touch #pagoFinal {
 						left:0px;
 						
 					}	
+
+					@media screen and (max-width:639px) {
+						.responsive3 video{
+							position:absolute;
+							height:70%;
+							width:70%;
+							top:0px;
+							left:0px;
+							
+						}
+					}
 					/*Video Introduccion*/
 
 					.delimitador4{
