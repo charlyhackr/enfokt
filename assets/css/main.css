@@ -2103,12 +2103,14 @@
 				margin-left: -100px ;
 				margin-right: 100px;
 				text-align: center;
+				width: 100%;
 			}
 			.parra2{
 				display: block;
 				margin-left: 100px ;
 				margin-right: -100px;
 				text-align: center;
+				width: 100%;
 			}
 		}
 		@media screen and (max-width: 736px) {
@@ -2117,6 +2119,7 @@
 				margin-left: -50px ;
 				margin-right: 50px ;
 				text-align: center ;
+				width: 100%;
 				
 			}
 			.parra2{
@@ -2124,6 +2127,7 @@
 				margin-left:90px ;
 				margin-right: -90px;
 				text-align: center;
+				width: 100%;
 			}
 		}
 		@media screen and (max-width: 480px) {
@@ -4116,6 +4120,14 @@ body.is-touch #pagoFinal {
 								margin:0.4em auto;
 							 }
 							}
+				
+			/*OCULTAR DIV */
+			@media screen and (max-width: 980px) {
+				.ocultar{
+					display:none;
+				}
+			}
+			
 
 					
 
