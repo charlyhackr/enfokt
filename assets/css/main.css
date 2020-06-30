@@ -4148,6 +4148,30 @@ body.is-touch #pagoFinal {
 					display:none;
 				}
 			}
+
+
+			#column-left {
+				
+				background-color: chartreuse;
+				border-radius: 50%;
+				float: left;
+				position: fixed;
+				width: 87px;
+				height: 87px;
+				margin-top: 600px;
+				margin-left: 40px;
+				overflow: hidden;
+				text-align: center;
+				
+			}
+
+			.icons2{
+				font-size: 40px;
+			}
+		
+			#pruebass{
+				margin-top: 27px;
+			}
 			
 
 					
