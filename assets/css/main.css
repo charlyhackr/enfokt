@@ -4172,6 +4172,56 @@ body.is-touch #pagoFinal {
 			#pruebass{
 				margin-top: 27px;
 			}
+
+			@media screen and (max-width:639px) {
+				#column-left {
+				
+					background-color: chartreuse;
+					border-radius: 50%;
+					float: left;
+					position: fixed;
+					width: 60px;
+					height: 60px;
+					margin-top: 600px;
+					margin-left: 40px;
+					overflow: hidden;
+					text-align: center;
+					
+				}
+	
+				.icons2{
+					font-size: 20px;
+				}
+			
+				#pruebass{
+					margin-top: 15px;
+				}
+			}
+			@media screen and (max-width:1024px) and (min-width:640px) {
+				#column-left {
+				
+					background-color: chartreuse;
+					border-radius: 50%;
+					float: left;
+					position: fixed;
+					width: 77px;
+					height: 77px;
+					margin-top: 600px;
+					margin-left: 40px;
+					overflow: hidden;
+					text-align: center;
+					
+				}
+	
+				.icons2{
+					font-size: 30px;
+				}
+			
+				#pruebass{
+					margin-top: 20px;
+				}
+			}
+
 			
 
 					
