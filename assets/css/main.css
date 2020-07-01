@@ -2421,7 +2421,7 @@
 
 		.image.captioned {
 			border-radius: 0;
-			margin-bottom: 4em;
+			margin-bottom: em;
 		}
 
 			.image.captioned img {
